@@ -60,7 +60,7 @@
 			var $nav_a = $nav.find('a');
 
 			$nav_a
-				.addClass('scrolly')
+				//.addClass('scrolly')
 				.on('click', function() {
 
 					var $this = $(this);
@@ -133,7 +133,7 @@
 		// Panel.
 			$header
 				.panel({
-					delay: 500,
+					//delay: 500,
 					hideOnClick: true,
 					hideOnSwipe: true,
 					resetScroll: true,
@@ -144,6 +144,7 @@
 				});
 
 	// Scrolly.
+	/*
 		$('.scrolly').scrolly({
 			speed: 1000,
 			offset: function() {
@@ -154,6 +155,6 @@
 				return 0;
 
 			}
-		});
+		}); */
 
 })(jQuery);
