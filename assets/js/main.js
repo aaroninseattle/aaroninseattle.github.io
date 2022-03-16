@@ -10,7 +10,7 @@
 		$body = $('body'),
 		$header = $('#header'),
 		$titleBar = null,
-		$nav = $('#nav'),
+		//$nav = $('#nav'),
 		$wrapper = $('#wrapper');
 
 	// Breakpoints.
@@ -57,10 +57,10 @@
 	// Header Panel.
 
 		// Nav.
-			var $nav_a = $nav.find('a');
+			/* var $nav_a = $nav.find('a');
 
 			$nav_a
-				//.addClass('scrolly')
+				.addClass('scrolly')
 				.on('click', function() {
 
 					var $this = $(this);
@@ -119,7 +119,7 @@
 							}
 						});
 
-				});
+				}); */
 
 		// Title Bar.
 			$titleBar = $(
@@ -144,8 +144,8 @@
 				});
 
 	// Scrolly.
-	/*
-		$('.scrolly').scrolly({
+	
+		/*$('.scrolly').scrolly({
 			speed: 1000,
 			offset: function() {
 
@@ -155,6 +155,6 @@
 				return 0;
 
 			}
-		}); */
+		});*/
 
 })(jQuery);
